@@ -1,0 +1,14 @@
+{
+  "help": {
+    "version" : 7,
+    "data":[    
+    {
+      "id" : "help_about",
+      "lang" : "en",
+      "type" : "simple",
+      "title" : "About",
+      "section_order" : "3",
+      "content" : "<p>EM Button is a simple and responsive SMS-driven emergency tracking beacon for when in a tight situation. Take the time to set up contact details, custom message and disguise passcode, try out the built-in tutorial to learn more about the exciting features and you will be able to activate the emergency beacon by pressing the power button in a specific sequence or through the calculator disguise. Your contacts will receive regular updates on your location through SMS.</p>"
+    }]
+  }
+}
