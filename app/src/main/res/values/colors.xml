@@ -3,4 +3,6 @@
     <color name="active_color">#fc2d2d</color>
     <color name="yellow">#fcc542</color>
     <color name="standby_color">#0000ff</color>
+    <color name="ButtonColor">#434343</color>
+    <color name="ButtonTextColor">#FFFFFF</color>
 </resources>

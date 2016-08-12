@@ -22,7 +22,10 @@
         <item name="android:layout_weight">1</item>
     </style>
 
-    <style name="calculator_btn">
+    <style name="calculator_btn" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:colorButtonNormal">@color/ButtonColor</item>
+        <item name="android:textColor">@color/ButtonTextColor</item>
+
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
         <item name="android:layout_weight">1</item>
@@ -157,6 +160,7 @@
         <item name="android:padding">15dp</item>
         <item name="android:textColor">#ffffff</item>
         <item name="android:textSize">20sp</item>
+        <item name="colorAccent">#1DE9B6</item>
     </style>
 
     <style name="i_am_at_text">

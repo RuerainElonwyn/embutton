@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.jiefanproj.android.embutton_master2">
 
-    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="23"/>
+    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="23"/>
 
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
