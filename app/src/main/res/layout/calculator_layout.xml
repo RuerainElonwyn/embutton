@@ -40,6 +40,7 @@
                 <Button
                     android:id="@+id/seven"
                     style="@style/calculator_btn"
+                    android:theme="@style/calculator_btn"
                     android:text="@string/seven" />
 
                 <Button
