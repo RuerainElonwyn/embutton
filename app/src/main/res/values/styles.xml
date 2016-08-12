@@ -22,8 +22,19 @@
         <item name="android:layout_weight">1</item>
     </style>
 
-    <style name="calculator_btn" parent="Widget.AppCompat.Button.Colored">
+    <style name="calculator_btn" parent="Widget.AppCompat.Button.Borderless.Colored">
         <item name="android:colorButtonNormal">@color/ButtonColor</item>
+        <item name="android:textColor">@color/ButtonTextColor</item>
+
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="calculator_btnCol" parent="Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:colorButtonNormal">#636363</item>
         <item name="android:textColor">@color/ButtonTextColor</item>
 
         <item name="android:layout_width">fill_parent</item>

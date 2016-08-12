@@ -20,7 +20,6 @@
         android:layout_height="0dp"
         android:layout_weight="0.40"
         android:baselineAligned="false"
-        android:theme="@style/calculator_btn"
         android:elevation="0dp"
         android:background="#888888">
 
@@ -29,6 +28,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:elevation="0dp"
+            android:theme="@style/calculator_btn"
             android:layout_weight="0.75" >
 
             <LinearLayout
@@ -58,6 +58,7 @@
                 style="@style/calculator_btn_container"
                 android:layout_width="fill_parent"
                 android:elevation="0dp"
+                android:theme="@style/calculator_btn"
                 android:layout_height="wrap_content" >
 
                 <Button
@@ -80,6 +81,7 @@
                 style="@style/calculator_btn_container"
                 android:layout_width="fill_parent"
                 android:elevation="0dp"
+                android:theme="@style/calculator_btn"
                 android:layout_height="wrap_content" >
 
                 <Button
@@ -102,6 +104,7 @@
                 style="@style/calculator_btn_container"
                 android:layout_width="fill_parent"
                 android:elevation="0dp"
+                android:theme="@style/calculator_btn"
                 android:layout_height="wrap_content" >
 
                 <Button
@@ -126,11 +129,12 @@
             android:layout_height="match_parent"
             android:layout_weight="0.25"
             android:elevation="0dp"
+            android:theme="@style/calculator_btnCol"
             android:orientation="vertical" >
 
             <Button
                 android:id="@+id/minus"
-                style="@style/calculator_btn"
+                style="@style/calculator_btnCol"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="0.20"
@@ -138,7 +142,7 @@
 
             <Button
                 android:id="@+id/plus"
-                style="@style/calculator_btn"
+                style="@style/calculator_btnCol"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="0.20"
@@ -146,7 +150,7 @@
 
             <Button
                 android:id="@+id/divide"
-                style="@style/calculator_btn"
+                style="@style/calculator_btnCol"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="0.20"
@@ -154,7 +158,7 @@
 
             <Button
                 android:id="@+id/multiply"
-                style="@style/calculator_btn"
+                style="@style/calculator_btnCol"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="0.20"
@@ -162,7 +166,7 @@
 
             <Button
                 android:id="@+id/char_c"
-                style="@style/calculator_btn"
+                style="@style/calculator_btnCol"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="0.15"
